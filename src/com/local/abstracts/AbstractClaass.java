@@ -6,6 +6,5 @@ private String name;
 public AbstractClaass(String name) {
 	super();
 	this.name = name;
-	System.out.println("Hello");
-}
+	}
 }
