@@ -1,7 +1,6 @@
 package com.local.java8.newinterface;
 
-public class ClassImplementInterfaceHaveStaticMethod implements
-		InterfaceWithStaticMethod {
+public class ClassImplementInterfaceHaveStaticMethod implements InterfaceWithStaticMethod {
 	public static boolean isNull(String str) {
         System.out.println("Impl Null Check");
  
@@ -10,7 +9,14 @@ public class ClassImplementInterfaceHaveStaticMethod implements
      
     public static void main(String args[]){
     	ClassImplementInterfaceHaveStaticMethod obj = new ClassImplementInterfaceHaveStaticMethod();
-        obj.print("");
         obj.isNull("abc");
     }
+
+	@Override
+	public void method2() {
+		// TODO Auto-generated method stub
+		
+		
+	}
+	
 }
